@@ -1,0 +1,83 @@
+.div1{
+    background-color: lightpink;
+    width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    
+}
+
+.div2{
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: grey;
+    display: inline-block;
+    padding: 0 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 50px;
+    text-align: center;
+    
+}
+
+label{
+    margin-left: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#un,#email,#phone,#pw,#rpw{
+    width: 500px;
+    height: 20px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    margin-left: 50px;
+    
+}
+
+#un:hover,#email:hover,#phone:hover,#pw:hover,#rpw:hover{
+    background-color: cyan;
+    border-radius: 7px;
+}
+
+#ta{
+    margin-left: 50px;
+}
+
+.a{
+    margin-left: 0;
+}
+
+#submit{
+    border-radius: 20px;
+    background-color: lightblue;
+    margin-left: 45%;
+    color: white;
+}
+
+
+#star{
+    margin-left: 50px;
+}
+
+#b{
+    text-align: center;
+    font-weight: bold;
+}
+
+#sign{
+    background-color: blue;
+    padding: 0 150px;
+    margin-left: 120px;
+    border-radius: 5px;
+    color: white;
+    height: 20px;
+}
+
+#submit:hover,#sign:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
